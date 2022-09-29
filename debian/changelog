@@ -1,0 +1,66 @@
+golang-github-golang-mock (1.3.1-2) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Go Packaging Team <team+pkg-go@tracker.debian.org>  Mon, 16 May 2022 20:20:15 +0800
+
+golang-github-golang-mock (1.3.1-2) unstable; urgency=medium
+
+  * Reupload to build with Go 1.12
+
+ -- Anthony Fok <foka@debian.org>  Sun, 11 Aug 2019 01:08:42 -0600
+
+golang-github-golang-mock (1.3.1-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Anthony Fok ]
+  * New upstream version 1.3.1
+  * Update debian/watch with filenamemangle
+  * Update Maintainer email address to team+pkg-go@tracker.debian.org
+  * Apply "cme fix dpkg" fixes
+    - Update debhelper dependency to "Build-Depends: debhelper-compat (= 12)"
+    - Bump Standards-Version to 4.4.0 (no change)
+  * Remove empty debian/patches/series file
+  * Add myself to the list of Uploaders
+
+ -- Anthony Fok <foka@debian.org>  Thu, 01 Aug 2019 00:57:43 -0600
+
+golang-github-golang-mock (1.0.0-1) unstable; urgency=medium
+
+  [ Shengjing Zhu ]
+  * Team upload
+  * New upstream release
+  * Replace DH_GOPKG with XS-Go-Import-Path
+  * Update compat and dh to 10
+  * Update Standards-Version to 4.1.0
+    + Change priority to optional
+    + Use https in copyright format url
+  * Update pkg-go team name
+  * Add autopkgtest-pkg-go
+
+  [ Martín Ferrari ]
+  * Merge upstream's git history and adjust gbp configuration.
+  * Remove unneeded Suggests.
+
+ -- Martín Ferrari <tincho@debian.org>  Wed, 13 Sep 2017 02:18:20 +0000
+
+golang-github-golang-mock (0.0~git20150821.0.06883d9-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+  * Remove Built-Using from arch:all -dev package
+
+  [ Konstantinos Margaritis ]
+  * Replace golang-go with golang-any in Build-Depends, remove golang-go from
+    Depends, put golang-any to Suggests of mockgen
+
+ -- Konstantinos Margaritis <markos@debian.org>  Wed, 09 Aug 2017 16:09:13 +0300
+
+golang-github-golang-mock (0.0~git20150821.0.06883d9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #798319).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 07 Sep 2015 19:11:20 +1000
